@@ -1,0 +1,25 @@
+ /--------------------------------------------------------------------------------/
+/--------------------------- EXECUTION - SRC & BUILD ----------------------------/
+
+Compiler dans le dossier 'build' ->     javac -d ../build *.java
+Exectuter depuis le dossier 'src' ->    java -cp ../build App
+
+
+--> javac -d ../build *.java && java -cp ../build App
+
+
+
+ /--------------------------------------------------------------------------------/
+/------------------------ CONSTRUCTION D'UNE CLASSE -----------------------------/
+
+Une class, il faut le voir comme une espèce d'éléments de notre programme. 
+
+Elle pourra soit représenter une entité (ex : un étudiant, un joueur... ) ou représenter une idée / un concept (ex : si dans un jeu vidéo on veut gérer la partie son alors on pourrait avoir un class qui s'occupe de la gestion du son) !
+
+
+
+Il y a deux types de class -> public & private  (on expliquera l'interêt plus tard ...)
+
+Généralement 1 fichier - 1 class !!!
+
+Pour fonctionner java à besoin d'une méthode de point d'entrer pour fonctionner (main)

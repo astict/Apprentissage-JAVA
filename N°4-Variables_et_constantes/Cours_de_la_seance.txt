@@ -1,0 +1,25 @@
+ /--------------------------------------------------------------------------------/
+/---------------------- VARIABLES ET CONSTANTES ---------------------------------/
+
+Java est un langage fortement typé ... c'est à dire qu u'il y a des langages ou l'on peut créer des variables sans forcément dire quel type de données on va y stocker à l'interieur ... PAS Java
+
+EXEMPLE :   int x = 10;
+            String nom = "Alice";
+
+
+ATTENTION :     - pas de caractères spéciaux, pas d'espaces 
+                - commence par un lettre ou underscore (_)
+
+
+
+
+Les 3 conventions de nommage standard en programmation : 
+                                                            uneVariableUnPeuLongue (camel case) -> pour les variables et les fonctions
+
+                                                            UneVariable (pascal case) -> pour le nom des class
+
+                                                            une_variable (snake case)
+
+
+
+Une variable n'existe que à l'endroit ou elle a été crée !!!

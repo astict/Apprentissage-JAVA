@@ -1,0 +1,52 @@
+ /--------------------------------------------------------------------------------/
+/---------------------- TYPE DE DONNEES -----------------------------------------/
+
+booléen     -    1 octet    -    true(1) | false (0)
+
+byte        -    1 octet    -    -128 à 127
+
+char        -    2 octet    -    Unicode (65536 caractères dispo)
+
+short       -    2 octet    -    -32768 à 32767
+
+int         -    4 octet    -    -2147483648 à 2147483647
+
+long        -    8 octet    -    -2⁶³ à +2⁶³-1
+
+float       -    4 octet    -    1.4*10⁻⁴⁵ à 3.4*10³⁸
+
+double      -    8 octet    -    4.9*10⁻³²⁴ à 1.7*10³⁰⁸
+
+
+
+
+base numérique : décimal      (10 -> 0 à 9)
+                 binaire      (2 -> 0 à 1)
+                 octale       (8 -> 0 à 7)
+                 hexadécimal  (16 -> 0 à F)
+
+
+nombre entier : 14
+                18_666
+                1_000_000_000
+
+
+binaire ->  0b11001111  !=  11_001_111
+
+octale ->  0755  !=  755
+
+hexadécimal ->  0xAF55
+
+
+
+ /------------------------------------------------------------------------------------/
+/---------------------- CARACTERES SPECIAUX -----------------------------------------/
+
+
+\n : une nouvelle ligne 
+\t : tabulation  
+\r : retour chariot 
+\b : retour en arrière
+\f : une nouvelle page 
+
+\'  \"  \077  \xAF  

@@ -1,0 +1,20 @@
+ /--------------------------------------------------------------------------------/
+/------------------------------ OPERATEURS --------------------------------------/
+
+Affectation (=) : age <- 24     ( int age = 24 )
+
+Concaténation (+) :     ( println("Tu as " + age + " ans"); )
+
+
+Opérateurs arithmétiques :  +  -  *  /  %
+
+Opérateurs de compraisons :  &&  ||  ==  =!  <  <=  >  >=  ===        ( ===   <- compare le type )
+
+Opérateurs arithmétiques (raccourci) :  +=  -=  *=  /=  %=  
+
+Opérateurs arithmétiques (raccourci) :  post-incrémentation ->  A++  
+                                        post-décrémentation ->  A--
+                                        pré-incrémentation  ->  ++A
+                                        pré-décrémentation  ->  --A
+
+                                        Attention ce n'est pas la même chose !!!

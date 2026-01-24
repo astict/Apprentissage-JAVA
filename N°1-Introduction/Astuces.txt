@@ -1,0 +1,23 @@
+ /----------------------------------------------------------------------/
+/---------------------- COMPILATION ET EXECUTION ----------------------/
+
+Pour compiler un programme Java, on utilisera "javac" (Java Compiler) :
+
+->  javac NomDeLaClass.java
+
+
+
+Puis pour exécuter notre programme (maintenant compiler -> NomDeLaClass.class) :
+
+-> java NomDeLaClass
+
+
+
+Exemple avec le programme 'HelloWorld.java' :   -> javac HelloWorld.java && java HelloWorld
+
+ /---------------------------------------------------------/
+/---------------------- MANUEL Java ----------------------/
+
+Entrer dans le terminal -> man javac
+
+

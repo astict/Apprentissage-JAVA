@@ -1,0 +1,38 @@
+ /----------------------------------------------------------------------/
+/---------------------- DEBUT -----------------------------------------/
+
+Une fois que notre classe est crée (class MainApp), il va nous falloir une fonction appelé -> 'une méthode' ...
+Mais une méthode spéciale, car c'est elle qui va être le point d'entrée de notre programme :
+
+public static void main(String[] args){}
+
+
+ /----------------------------------------------------------------------/
+/---------------------- EXPLICATION -----------------------------------/
+
+
+/---------------------- LE MAIN -----------------------------------/
+
+args -> paramètres passés quand on va compiler/exécuter le programme, pour éventuelement lui passer des arguments ...
+        on doit obligatoirement mettre ce paramètre dans le main (String[] args) sinon il y aura une erreur à l'exécution du programme 
+
+void -> le type de retour, cela ne renvoie rien (expliquer plus tard avec les fonctions et les méthodes ...)
+
+static -> la portée, le moyen d'accès à cette méthode (principe de portée des attributs et autres prochainement ...)
+
+public -> domaine d'accéssibilité (accessible depuis partout y compris depuis l'extérieur de la Class)
+
+
+/---------------------- LA METHODE -----------------------------------/
+
+System -> (convetion MAJ), c'est une class native de Java
+
+/*
+    Simple variable = variable procédurale
+    Variable dans une class = attribut
+*/
+
+out -> c'est un attribut - variable qui appartient à une class 
+
+println -> (print line) - afficher qqch sur la sortie (le shell) 
+                        - ln effectue un retour à la ligne à la fin 
