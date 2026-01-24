@@ -5,7 +5,7 @@ Compiler dans le dossier 'build' ->     javac -d ../build *.java
 Exectuter depuis le dossier 'src' ->    java -cp ../build App
 
 
---> javac -d ../build *.java && java -cp ../build App
+(dans mon src) --> javac -d ../build *.java && java -cp ../build App
 
 
 
