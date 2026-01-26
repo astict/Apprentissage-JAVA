@@ -75,7 +75,7 @@ https://www.youtube.com/watch?v=ws0JqA7bPN0&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=IZ8wKErw0_Y&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=8
 
 
-### TUTO N°9 - Attributs -- ⏳
+### TUTO N°9 - Attributs -- ✅
 
 https://www.youtube.com/watch?v=48wGbUfFtfM&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=9
 
