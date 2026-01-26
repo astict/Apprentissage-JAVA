@@ -1,0 +1,23 @@
+ /--------------------------------------------------------------------------------/
+/--------------------------- EXECUTION - SRC & BUILD ----------------------------/
+
+Compiler dans le dossier 'build' ->     javac -d ../build *.java
+Exectuter depuis le dossier 'src' ->    java -cp ../build App
+
+
+(dans mon src) --> javac -d ../build *.java && java -cp ../build App
+
+
+
+ /--------------------------------------------------------------------------------/
+/-------------------------------- ATTRIBUTS -------------------------------------/
+
+En Java, un attribut (qu’on appelle aussi variable d’instance ou champ) est une donnée qui appartient à une classe et qui décrit l’état d’un objet créé à partir de cette classe.
+
+Un attribut = une caractéristique d’un objet
+
+À quoi servent les attributs ?
+
+    - Stocker des informations
+    - Représenter l’état d’un objet
+    - Être utilisés par les méthodes de la classe
