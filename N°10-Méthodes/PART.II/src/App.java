@@ -7,6 +7,8 @@ public class App
         Player p2 = new Player("Thomas");
         Player p3 = new Player("Thomas",18);
 
+        p3.attack(); // IMPORTANT cela permet de faire plein de choses !!!! dont une attaque ...
+
 
         say("Hello !",2);
 

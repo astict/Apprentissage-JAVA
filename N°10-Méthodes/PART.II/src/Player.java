@@ -25,4 +25,9 @@ public class Player
 
         System.out.println(this.mNom + " - " + this.mLevel);
     }
+
+    public void attack()
+    {
+        System.out.println(this.mNom + " attaque le joueur adverse !");
+    }
 }
