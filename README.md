@@ -80,7 +80,7 @@ https://www.youtube.com/watch?v=IZ8wKErw0_Y&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=48wGbUfFtfM&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=9
 
 
-### TUTO N°10 - Méthodes -- ⏳
+### TUTO N°10 - Méthodes -- ✅
 
 https://www.youtube.com/watch?v=FkB7N0w81Dk&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=10
 
