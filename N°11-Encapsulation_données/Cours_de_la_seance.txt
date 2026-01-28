@@ -1,0 +1,7 @@
+ /--------------------------------------------------------------------------------/
+/-------------------------- ENCAPSULATION DONNEES -------------------------------/
+
+[ACCESSEURS] 
+
+    getters : accès à un attribut (lecture)
+    setters : modification d'un attribut
