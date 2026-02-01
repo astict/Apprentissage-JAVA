@@ -5,3 +5,40 @@
 
     getters : accès à un attribut (lecture)
     setters : modification d'un attribut
+
+/----------------------------------------------------------------------------------------------------------------------------/
+
+| Introduction à l’encapsulation |
+
+L’encapsulation est un principe fondamental de la programmation orientée objet (POO). Elle consiste à protéger les données d’une classe afin que l’accès et la modification de ces données se fassent uniquement de manière contrôlée.
+
+Objectifs de l’encapsulation :
+
+    Protéger les attributs d’une classe pour éviter des modifications accidentelles ou incorrectes depuis l’extérieur.
+    Garantir l’intégrité et la cohérence des données.
+    Faciliter la maintenance et l’évolution du code.
+
+Exemple simple : un logiciel de gestion de licences où chaque licence possède une date d’expiration. On ne veut pas que cette date soit modifiée directement par n’importe quel programme externe.
+
+/----------------------------------------------------------------------------------------------------------------------------/
+
+| Les attributs privés |
+
+En Java, pour encapsuler des données, on commence par déclarer les attributs d’une classe comme private. Cela empêche tout accès direct depuis l’extérieur de la classe.
+
+/----------------------------------------------------------------------------------------------------------------------------/
+
+| Variables de classe (statique) et encapsulation |
+
+Par défaut, chaque objet possède ses propres attributs.
+
+Une variable statique (static) est partagée par tous les objets de la classe.
+
+Les variables statiques doivent aussi être privées et manipulées via des getters/setters statiques pour respecter le principe d’encapsulation.
+
+/----------------------------------------------------------------------------------------------------------------------------/
+
+
+Principe clé :
+
+Une classe doit contrôler l’accès à ses données et offrir un accès uniquement via des méthodes définies (getters/setters), assurant la sécurité et la cohérence du code.
