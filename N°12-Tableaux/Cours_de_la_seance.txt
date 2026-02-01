@@ -1,0 +1,179 @@
+ /--------------------------------------------------------------------------------/
+/--------------------------------- TABLEAUX -------------------------------------/
+
+| Qu’est-ce qu’un tableau ? |
+
+Un tableau est une structure de données qui permet de stocker plusieurs valeurs du même type dans une seule variable.
+Contrairement aux variables simples qui stockent une seule valeur, un tableau peut contenir plusieurs valeurs, accessibles via un indice.
+
+Chaque élément d’un tableau est stocké dans un espace mémoire contigu, c’est-à-dire que les valeurs se suivent en mémoire.
+
+Les tableaux en Java sont des objets même s’ils contiennent des types primitifs (int, double, char, etc.).
+La taille d’un tableau est fixe à sa création.
+
+
+Exemple :   int[] tab = new int[3]; // Déclare un tableau de 3 entiers
+
+Ici, tab peut contenir trois entiers, stockés de manière contiguë en mémoire.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Déclaration et initialisation |
+
+
+1.1. Déclaration
+
+Il existe deux manières principales de déclarer un tableau :
+
+int[] tab1;    // Préférée : indique clairement que c'est un tableau d'entiers
+int tab2[];    // Syntaxe alternative (moins recommandée)
+
+
+1.2. Initialisation
+
+Sans valeurs initiales :    tab1 = new int[3]; // Tableau de 3 éléments, valeurs par défaut = 0
+
+Avec valeurs initiales :    int[] tab = {1, 2, 3}; // Tableau de 3 éléments initialisés
+
+
+Séparer déclaration et initialisation :     int[] tab;
+                                            tab = new int[]{1, 2, 3};
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Accéder aux éléments |
+
+Chaque élément d’un tableau est accessible via son indice, en commençant à 0.
+
+int premier = tab[0]; // Premier élément
+int deuxieme = tab[1]; // Deuxième élément
+tab[2] = 10;           // Modifier le troisième élément
+
+Attention : Si on essaie d’accéder à un indice hors limites, Java lance une IndexOutOfBoundsException.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Parcourir un tableau |
+
+
+1.1. Avec une boucle for classique
+
+for (int i = 0; i < tab.length; i++) 
+{
+    System.out.println(tab[i]);
+}
+
+tab.length retourne le nombre d’éléments du tableau.
+
+La variable i représente l’indice courant.
+
+
+1.2. Avec une boucle for-each (plus simple)
+
+for (int valeur : tab) 
+{
+    System.out.println(valeur);
+}
+
+Ici, valeur prend successivement chaque élément du tableau.
+On ne gère pas les indices directement, mais c’est pratique pour juste lire les données.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Tableaux à deux dimensions |
+
+Un tableau à deux dimensions est un tableau de tableaux.
+On l’utilise pour représenter des matrices, des damiers, etc.
+
+
+Déclaration et initialisation :
+
+int[][] matrice = 
+{
+    {1, 2, 3},
+    {4, 5, 6}
+};
+
+
+matrice[0][0] → premier élément de la première ligne (1)
+matrice[1][2] → troisième élément de la deuxième ligne (6)
+
+
+
+Parcourir un tableau 2D :
+
+for (int i = 0; i < matrice.length; i++) {           // Parcourt les lignes
+    for (int j = 0; j < matrice[i].length; j++) {    // Parcourt les colonnes
+        System.out.print(matrice[i][j] + " ");
+    }
+    System.out.println();
+}
+
+
+On peut aussi utiliser une boucle for-each imbriquée :
+
+for (int[] ligne : matrice) 
+{
+    for (int valeur : ligne) 
+    {
+        System.out.print(valeur + " ");
+    }
+    System.out.println();
+}
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Tableaux et mémoire |
+
+Chaque tableau est stocké de manière contiguë en mémoire, ce qui permet un accès rapide aux éléments.
+
+Java gère la mémoire automatiquement via la JVM, il n’est pas nécessaire de libérer manuellement la mémoire.
+
+Les variables d’un tableau sont des références vers les valeurs stockées en mémoire.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Tableaux et méthodes |
+
+On peut passer un tableau en paramètre à une méthode :
+
+public static void afficherTableau(int[] tab) 
+{
+    for (int valeur : tab) 
+    {
+        System.out.println(valeur);
+    }
+}
+
+public static void main(String[] args) 
+{
+    int[] tab = {1, 2, 3};
+    afficherTableau(tab);  // Affiche tous les éléments
+}
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Classes utilitaires pour tableaux |
+
+Java propose des méthodes utilitaires dans la classe Arrays pour manipuler les tableaux :
+
+import java.util.Arrays;
+
+int[] tab = new int[5];
+Arrays.fill(tab, 15);                // Remplit le tableau avec 15
+Arrays.sort(tab);                    // Trie le tableau
+System.out.println(Arrays.toString(tab));       // Affiche le tableau
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Bonnes pratiques |
+
+    - Toujours utiliser tab.length pour parcourir un tableau.
+
+    - Préférer la boucle for-each pour lire les éléments.
+
+    - Ne jamais accéder à un indice hors limites.
+
+    - Préférer la syntaxe int[] tab pour déclarer les tableaux.
+
+    - Utiliser Arrays pour des opérations courantes (remplir, trier, afficher).
