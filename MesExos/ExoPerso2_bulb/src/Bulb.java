@@ -1,19 +1,20 @@
 public class Bulb
 {
-    private int mPower;
+    private int thePower;
 
+    
     public Bulb(int power)
     {
-        this.mPower = power;
+        this.thePower = power;
     }
 
-    public int get_BulbPower()
+    public int get_power()
     {
-        return this.mPower;
+        return this.thePower;
     }
     
-    public void set_BulbPower(int power)
+    public void set_power(int power)
     {
-        this.mPower = power;
+        this.thePower = power;
     }
 }

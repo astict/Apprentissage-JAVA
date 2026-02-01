@@ -1,12 +1,11 @@
-public class Main
+public class Main 
 {
     public static void main(String[] args)
     {
-        Bulb ampoule1 = new Bulb(200);
+        Bulb ampoule1 = new Bulb(0);
 
-        ampoule1.set_BulbPower(400);
-        System.out.println("L'ampoule a pour puissance : " + ampoule1.get_BulbPower() + "W");
+        ampoule1.set_power(400);
 
+        System.out.println(ampoule1.get_power());
     }
-
 }
