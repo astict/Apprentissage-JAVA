@@ -1,5 +1,17 @@
 public class Main
 {
+    public static void printTab(int[][] tab)
+    {
+        for(int i = 0; i < tab.length; i++)
+        {
+            for(int j = 0; j < tab[i].length; j++)
+            {
+                System.out.print(tab[i][j] + " ");
+            }
+        System.out.println();
+        }
+    }
+
     public static void main(String[] args)
     {
 
@@ -8,13 +20,10 @@ public class Main
 
         int tab[] = new int[]{1,2,3}; //Déclaration d'un tableau d'entier qui contient 3 "int" 
 
-        
-
-        //int[] tableau_test = new int[]{1,2,3,4};
-        //int[] tableau_test_test = {1,2,3,4};
+        //int[] tab = new int[]{1,2,3,4};
+        //int[] tab = {1,2,3,4};
 
         //System.out.println(tab);    //Référence vers le tableau 
-
 
 
 
@@ -31,7 +40,7 @@ public class Main
         }
 
 
-        /*------------------------- TABLEAUX 2D -------------------------*/System.out.println("---------");
+        /*------------------------- TABLEAUX 2D -------------------------*/ System.out.println("---------");
 
         int[][] tableau = 
         {
@@ -43,6 +52,36 @@ public class Main
 
         System.out.println(tableau[1][1]);
 
+        System.out.println("---------");
+
+        /*
+
+        for (int i = 0; i < tableau.length; i++) 
+        {
+            for (int j = 0; j < tableau[i].length; j++) 
+            {
+                System.out.print(tableau[i][j] + " ");
+            }
+
+        System.out.println();
+
+        }
+
+        */
+
+
+        /*
+        for(int[] i : tableau)
+        {
+            for(int number : i)
+            {
+                System.out.print(number + " ");
+            }
+            System.out.println();
+        }
+        */
+
+        printTab(tableau);
 
 
 
