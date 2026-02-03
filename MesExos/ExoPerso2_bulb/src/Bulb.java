@@ -1,31 +1,56 @@
 public class Bulb
 {
-    private int power;
+    private int bulb_power;
     private boolean isOn;
 
     public Bulb(int power)
     {
-        this.power = power;
+        this.bulb_power = power;
         this.isOn = false;
     }
 
-    public int getPower()
+    public void setPowerBulb(int power)
     {
-        return power;
+        this.bulb_power = power;
     }
 
-    public void setPower(int power)
+    public int getPowerBulb()
     {
-        this.power = power;
+        return this.bulb_power;
     }
 
     public void turnOn()
     {
-        isOn = true;
+        this.isOn = true;
     }
 
     public void turnOff()
     {
-        isOn = false;
+        this.isOn = false;
     }
+
+    public boolean isOn()
+    {
+        return this.isOn;
+    }
+
+    public String getState()
+{
+    if(isOn == true)
+        return "ON";
+        
+    else
+        return "OFF";
+}
+
+
+
+    /*
+
+    public String toString()
+    {
+        return "State : " + isOn + " Power : " + this.bulb_power;
+    }
+    */
+    
 }
