@@ -1,20 +1,31 @@
 public class Bulb
 {
-    private int thePower;
+    private int power;
+    private boolean isOn;
 
-    
     public Bulb(int power)
     {
-        this.thePower = power;
+        this.power = power;
+        this.isOn = false;
     }
 
-    public int get_power()
+    public int getPower()
     {
-        return this.thePower;
+        return power;
     }
-    
-    public void set_power(int power)
+
+    public void setPower(int power)
     {
-        this.thePower = power;
+        this.power = power;
+    }
+
+    public void turnOn()
+    {
+        isOn = true;
+    }
+
+    public void turnOff()
+    {
+        isOn = false;
     }
 }
