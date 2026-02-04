@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main
 {
     public static void printTab(int[][] tab)
@@ -83,7 +85,15 @@ public class Main
 
         printTab(tableau);
 
+        /*------------------------- BONUS -------------------------*/ System.out.println("---------");
 
+        System.out.println(tableau.toString());     //méthode d'affichage 
 
+        int[] tablo = new int[5];
+
+        Arrays.fill(tablo,15);
+
+        for(int i : tablo)
+            System.out.println(i);
     }
 }

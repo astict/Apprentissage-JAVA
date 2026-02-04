@@ -42,15 +42,5 @@ public class Bulb
     else
         return "OFF";
 }
-
-
-
-    /*
-
-    public String toString()
-    {
-        return "State : " + isOn + " Power : " + this.bulb_power;
-    }
-    */
     
 }

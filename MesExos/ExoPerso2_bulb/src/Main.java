@@ -23,6 +23,12 @@ public class Main
         {
             System.out.println("Apoule N°"+(i+1)+ "\t" + bulbs[i].getPowerBulb() + "W\t" + bulbs[i].getState());
         }
+        
+        Socket socket = new Socket();
+
+        System.out.println("-------------");
+
+        System.out.println("Il faut " + socket.nbrSocket(bulbs) + " sockets pour y mettre toutes les lampes !");
 
     }
 }
