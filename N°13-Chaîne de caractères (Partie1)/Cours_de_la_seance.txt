@@ -1,0 +1,62 @@
+ /--------------------------------------------------------------------------------/
+/------------------------- CHAINE DE CARACTERES - PART1 -------------------------/
+
+| Le type String |
+
+En Java, les chaînes de caractères sont représentées par la classe String, contrairement aux types primitifs (int, float, double, etc.).
+Une variable String contient en réalité un objet de la classe String.
+La syntaxe implicite est plus courante et plus pratique.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Immuabilité des chaînes |
+
+Les objets String sont immuables : leur contenu ne peut pas être modifié après création.
+Quand vous modifiez une chaîne, une nouvelle chaîne est créée, l’ancienne étant libérée par le garbage collector.
+
+Cette immuabilité a des implications sur la performance, surtout si vous modifiez souvent des chaînes : de nombreuses chaînes seront créées en mémoire.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Concaténation |
+
+L’opérateur + permet de concaténer deux chaînes. 
+
+On peut aussi utiliser la méthode concat(). 
+
+Pour de nombreuses concaténations, concat() peut être plus performant que +.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Méthodes courantes |
+
+length() : retourne le nombre de caractères.
+
+toUpperCase(), toLowerCase() : crée une nouvelle chaîne en majuscules/minuscules.
+
+trim() : supprime les espaces avant et après.
+
+replace(oldChar, newChar) : remplace tous les caractères spécifiés.
+
+charAt(index) : retourne le caractère à un index donné.
+
+substring(start, end) : extrait une sous-chaîne.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Comparaison de chaînes |
+
+On ne doit pas utiliser == pour comparer des chaînes (cela compare les références, pas le contenu).
+
+compareTo() utilise le code ASCII pour comparer lexicalement les caractères.
+
+/---------------------------------------------------------------------------------------------------------------------/
+
+| Points importants à retenir |
+
+String est immuable → toute modification crée une nouvelle instance.
+
+Utiliser concat() ou autres méthodes pour éviter de lourdes concaténations répétées.
+equals() pour comparer le contenu, compareTo() pour comparaison lexicale.
+
+De nombreuses méthodes utiles existent déjà → consulter la documentation avant de créer ses propres fonctions.

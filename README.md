@@ -95,7 +95,7 @@ https://www.youtube.com/watch?v=zM_Qf07fEyc&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=VdvUYGs17Ek&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=12
 
 
-### TUTO N°13 - Chaîne de caractères (1/2) -- ⏳
+### TUTO N°13 - Chaîne de caractères (1/2) -- ✅
 
 https://www.youtube.com/watch?v=wvQQ5263pvI&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=13
 
