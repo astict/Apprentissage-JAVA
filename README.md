@@ -100,7 +100,7 @@ https://www.youtube.com/watch?v=VdvUYGs17Ek&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=wvQQ5263pvI&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=13
 
 
-### TUTO N°14 - Chaîne de caractères (2/2) -- ⏳
+### TUTO N°14 - Chaîne de caractères (2/2) -- ✅
 
 https://www.youtube.com/watch?v=EphmNLfZ2hM&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=14
 
