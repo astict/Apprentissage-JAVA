@@ -1,0 +1,70 @@
+ /--------------------------------------------------------------------------------/
+/------------------------- CHAINE DE CARACTERES - PART2 -------------------------/
+
+DOC JAVA : https://docs.oracle.com/en/java/javase/index.html    --> API Documentation
+
+/-------------------------------------------------------------------------------------------------------------------------------/
+
+| Rappel fondamental : la classe String |
+
+String est immuable
+
+* Une chaîne String ne peut pas être modifiée
+* Toute “modification” crée une nouvelle chaîne
+
+| Découper une chaîne : le principe du split |
+
+Découper une chaîne en morceaux (tokens), comme :
+
+* split() en Python
+* explode() en PHP
+
+| Classe utilisée : StringTokenizer |
+
+Explication
+
+* Token = un morceau de la chaîne
+* hasMoreTokens() → reste-t-il des morceaux ?
+* nextToken() → récupère le prochain
+
+| StringBuilder vs StringBuffer | 
+
+| Critère          | StringBuilder    | StringBuffer      |
+| ---------------- | ---------------  | ----------------  |
+| Mutable          | ✅               | ✅                |
+| Performance      | 🚀 Très rapide   | 🐢 Plus lent      |
+| Thread-safe      | ❌ Non           | ✅ Oui            |
+| Synchronisé      | ❌ Non           | ✅ Oui            |
+| Usage recommandé | Mono-thread      |  Multi-thread     |
+
+
+
+| Notion clé : Thread |
+
+* Mono-thread : une seule route → StringBuilder
+* Multi-thread : plusieurs routes → StringBuffer
+
+Synchronisation = sécurité mais **perte de performance**
+
+| Règle d’or |
+
+* 90% des cas → StringBuilder
+* StringBuffer` uniquement si multi-thread réel
+
+| Optimisations du compilateur Java |
+
+Le compilateur Java :
+
+* Remplace souvent + par StringBuilder
+* Optimise automatiquement certaines concaténations
+
+| Mauvaise mentalité |
+
+> “Les ordinateurs sont puissants, on s’en fiche”
+
+Bonne mentalité
+
+* Performance
+* Mémoire
+* Lisibilité
+* Rigueur
