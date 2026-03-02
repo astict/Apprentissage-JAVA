@@ -115,7 +115,7 @@ https://www.youtube.com/watch?v=8xVLSfM5UhY&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=fa84_nrUrMw&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=16
 
 
-### TUTO N°17 - Exceptions -- ⏳
+### TUTO N°17 - Exceptions -- ✅
 
 https://www.youtube.com/watch?v=UEISfoJaOyk&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=17
 
