@@ -1,19 +1,8 @@
 package jc.entities;
 
-public class Tiger extends LivingSpecies
+public class Lion extends Feline
 {
-    public Tiger()
-    {
-        mName = "Tigre";
-    }
+    public Lion() { mName = "Lion"; }
 
-    public void eat()
-    {
-        System.out.println("Je mange de la viande...");
-    }
-
-    public void speak()
-    {
-        System.out.println("Je rugis...");
-    }
+    public void sleep() { System.out.println("Je dors moins qu'un Lion"); }
 }
