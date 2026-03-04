@@ -125,7 +125,7 @@ https://www.youtube.com/watch?v=UEISfoJaOyk&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=8TSVW7SV0KA&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=18
 
 
-### TUTO N°19 - Classe abstraites -- ⏳
+### TUTO N°19 - Classes abstraites -- ⏳
 
 https://www.youtube.com/watch?v=dd0_nYhtaKQ&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=19
 
