@@ -120,7 +120,7 @@ https://www.youtube.com/watch?v=fa84_nrUrMw&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=UEISfoJaOyk&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=17
 
 
-### TUTO N°18 - Héritage -- ⏳
+### TUTO N°18 - Héritage -- ✅
 
 https://www.youtube.com/watch?v=8TSVW7SV0KA&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=18
 
