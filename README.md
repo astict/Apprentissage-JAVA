@@ -130,7 +130,7 @@ https://www.youtube.com/watch?v=8TSVW7SV0KA&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=dd0_nYhtaKQ&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=19
 
 
-### TUTO N°20 - Interfaces -- ⏳
+### TUTO N°20 - Interfaces -- ✅
 
 https://www.youtube.com/watch?v=M0hkhOoOIHg&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=20
 
