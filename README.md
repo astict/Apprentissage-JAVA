@@ -140,7 +140,7 @@ https://www.youtube.com/watch?v=M0hkhOoOIHg&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=CPxrEntMxsQ&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=21
 
 
-### TUTO N°22 - Introduction collections -- ⏳
+### TUTO N°22 - Introduction collections -- ✅
 
 https://www.youtube.com/watch?v=ov3d4s5w_m0&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=22
 

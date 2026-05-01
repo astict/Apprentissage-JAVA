@@ -1,0 +1,48 @@
++------- Quelques méthodes de l'interface Collection -------+
+
+
+• add(E e) : Ajoute un élément à la collection.
+
+• addAll(Collection<? extends E> c) : Ajoute tous les éléments de la collection spécifiée.
+
+• contains(Object o) : Renvoie `true` si la collection contient l'élément.
+
+• isEmpty() : Vérifie si la collection est vide.
+
+• remove(Object o) : Supprime une instance de l'élément spécifié.
+
+• size() : Retourne le nombre d'éléments.
+
+• clear() : Supprime tous les éléments.
+
+• iterator() : Retourne un itérateur pour parcourir la collection.
+
+
+
+
++------- Quelques classes et structures -------+
+
+
+• List (Ordre conservé, doublons autorisés) :
+
+  • ArrayList : Tableau dynamique, accès rapide par index.
+
+  • LinkedList : Liste doublement chaînée, efficace pour insertions/suppressions.
+
+  • Vector : Similaire à ArrayList mais synchronisé (thread-safe).
+
+  • Stack : Extension de Vector (LIFO - Last In First Out).
+
+
+• Set (Pas de doublons) :
+
+  • HashSet : Stockage basé sur une table de hachage, pas d'ordre garanti.
+
+  • TreeSet : Implémentation triée (ordre naturel ou comparateur).
+  
+
+• Map (Couples Clé/Valeur) :
+
+  • HashMap : Clés uniques, pas d'ordre garanti.
+
+  • TreeMap : Clés triées.
