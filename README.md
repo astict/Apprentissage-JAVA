@@ -135,7 +135,7 @@ https://www.youtube.com/watch?v=dd0_nYhtaKQ&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=M0hkhOoOIHg&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=20
 
 
-### TUTO N°21 - Polymorphisme -- ⏳
+### TUTO N°21 - Polymorphisme -- ✅
 
 https://www.youtube.com/watch?v=CPxrEntMxsQ&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=21
 
