@@ -145,7 +145,7 @@ https://www.youtube.com/watch?v=CPxrEntMxsQ&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=ov3d4s5w_m0&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=22
 
 
-### TUTO N°23 - Listes -- ⏳
+### TUTO N°23 - Listes -- ✅
 
 https://www.youtube.com/watch?v=eXYLsxQvIF4&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=23
 
