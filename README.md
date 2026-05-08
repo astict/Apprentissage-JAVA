@@ -150,7 +150,7 @@ https://www.youtube.com/watch?v=ov3d4s5w_m0&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=eXYLsxQvIF4&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=23
 
 
-### TUTO N°24 - Files -- ⏳
+### TUTO N°24 - Files -- ✅
 
 https://www.youtube.com/watch?v=TLPqZ6QOeBo&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=24
 
