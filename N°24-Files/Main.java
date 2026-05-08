@@ -35,23 +35,20 @@ public class Main
                 System.out.println(e);
         */
 
-       ArrayDeque<Integer> adq = new ArrayDeque<Integer>();
+        ArrayDeque<Integer> adq = new ArrayDeque<Integer>();
 
-       // peekFirst(), peekLast(), removeLastOccurrence()
+        // peekFirst(), peekLast(), removeLastOccurrence()
 
-       adq.addFirst(1);
-       adq.addFirst(-3);
-       adq.addLast(-4);
+        adq.addFirst(1);
+        adq.addFirst(-3);
+        adq.addLast(-4);
 
-       Iterator<Integer> it = adq.iterator();
+        Iterator<Integer> it = adq.iterator();
 
         while (it.hasNext()) 
             System.out.println(it.next());
 
         System.out.println(adq.getFirst());
-    
     }
-
-    
 }
 

@@ -155,7 +155,7 @@ https://www.youtube.com/watch?v=eXYLsxQvIF4&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=TLPqZ6QOeBo&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=24
 
 
-### TUTO N°25 - Ensembles -- ⏳
+### TUTO N°25 - Ensembles -- ✅
 
 https://www.youtube.com/watch?v=lBa9_JzgBEE&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=25
 
