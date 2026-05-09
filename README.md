@@ -160,7 +160,7 @@ https://www.youtube.com/watch?v=TLPqZ6QOeBo&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=lBa9_JzgBEE&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=25
 
 
-### TUTO N°26 - Cartes (clé-valeur) -- ⏳
+### TUTO N°26 - Cartes (clé-valeur) -- ✅
 
 https://www.youtube.com/watch?v=l1pXrZByaAM&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=26
 
