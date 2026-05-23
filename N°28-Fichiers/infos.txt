@@ -1,5 +1,0 @@
-Bonjour, je suis un texte lambda utilisé à des fins de tests ...
-2ème ligne
-3ème ligne
-4ème ligne
-5ème ligne

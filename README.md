@@ -170,7 +170,7 @@ https://www.youtube.com/watch?v=l1pXrZByaAM&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=7cdTn1bvNJc&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=27
 
 
-### TUTO N°28 - Fichiers -- ⏳
+### TUTO N°28 - Fichiers -- ✅
 
 https://www.youtube.com/watch?v=RYsa_zEe4Xs&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=28
 
