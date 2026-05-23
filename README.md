@@ -175,7 +175,7 @@ https://www.youtube.com/watch?v=7cdTn1bvNJc&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYt
 https://www.youtube.com/watch?v=RYsa_zEe4Xs&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=28
 
 
-### TUTO N°29 - Généricité -- ⏳
+### TUTO N°29 - Généricité -- ✅
 
 https://www.youtube.com/watch?v=QWn_KHeUKfA&list=PLrSOXFDHBtfHkq8dd3BbSaopVgRSYtgPv&index=29
 
